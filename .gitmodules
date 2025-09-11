@@ -1,6 +1,6 @@
 [submodule "requiem-for-a-spring-front"]
 	path = requiem-for-a-spring-front
-	url = git@github.com:imulcei/requiem-for-a-spring-front.git
+	url = git@github.com:Le-Totem/requiem-for-a-spring-front.git
 [submodule "requiem-for-a-spring-api"]
 	path = requiem-for-a-spring-api
-	url = git@github.com:imulcei/requiem-for-a-spring-api.git
+	url = git@github.com:Le-Totem/requiem-for-a-spring-api.git
