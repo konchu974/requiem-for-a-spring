@@ -1,0 +1,23 @@
+@startuml
+actor Utilisateur
+actor Admin
+boundary Interface as React
+control Backend as SpringAPI
+database BDD
+entity Mailer
+
+Utilisateur -> React : Remplir formulaire inscription
+React -> SpringAPI : POST /inscription (données utilisateur)
+SpringAPI -> SpringAPI : Vérifier format mot de passe +  email
+SpringAPI -> BDD : INSERT utilisateur (statut = en attente)
+BDD --> SpringAPI : OK
+SpringAPI -> Mailer : Envoyer email avec lien de validation
+Mailer --> Admin : Email de validation
+
+Admin -> React : Cliquer lien de validation
+React -> SpringAPI : GET /validation?token=...
+SpringAPI -> BDD : UPDATE utilisateur (statut = validé)
+BDD --> SpringAPI : OK
+SpringAPI --> React : Inscription validée
+React --> Utilisateur : Message "Inscription validé"
+@enduml
