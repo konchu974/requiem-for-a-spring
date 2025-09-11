@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="15.1">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>130</x>
+      <y>270</y>
+      <w>210</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>home page 
+Connexion / Inscription</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>120</x>
+      <y>390</y>
+      <w>290</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>Page liste des ensembles accessibles
+via ces id de connexions
+
+Création d'ensembles
+Accès page admin de ses ensembles</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>190</x>
+      <y>460</y>
+      <w>270</w>
+      <h>230</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>250.0;210.0;10.0;210.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>190</x>
+      <y>460</y>
+      <w>270</w>
+      <h>460</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>250.0;440.0;10.0;440.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>440</x>
+      <y>640</y>
+      <w>360</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>Page de l'ensemble avec les dossiers 
+et fichiers correspondants 
+
+(Role Membre - Pas de crud - pas de formulaires)</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>210</x>
+      <y>860</y>
+      <w>190</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>Clic sur Création d'un 
+ensemble </panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>480</x>
+      <y>560</y>
+      <w>310</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>bg=blue
+Possible de faire des dossiers 
+dans les ensembles ?</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>620</x>
+      <y>600</y>
+      <w>30</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>lt=.</panel_attributes>
+    <additional_attributes>10.0;40.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>440</x>
+      <y>870</y>
+      <w>370</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>Page de Création d'ensemble 
+(Rôle Modérateur - Crud - Formulaire Create)</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>220</x>
+      <y>300</y>
+      <w>30</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>10.0;90.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>190</x>
+      <y>460</y>
+      <w>270</w>
+      <h>350</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>250.0;330.0;10.0;330.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>210</x>
+      <y>630</y>
+      <w>190</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>Clic sur un ensemble existant 
+non créé par cet user</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>440</x>
+      <y>750</y>
+      <w>360</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>Page de l'ensemble avec les dossiers 
+et fichiers correspondants 
+
+(Rôle Modérateur - Crud - Formulaire (update)</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>210</x>
+      <y>750</y>
+      <w>190</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>Clic sur un ensemble existant créé 
+par cet user</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>400</x>
+      <y>430</y>
+      <w>600</w>
+      <h>260</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;580.0;10.0;580.0;240.0;400.0;240.0</additional_attributes>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>800</x>
+      <y>760</y>
+      <w>240</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>Exit = 
+- Soumission des updates à l'admin
+- Retour page liste ensembles </panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>440</x>
+      <y>990</y>
+      <w>370</w>
+      <h>130</h>
+    </coordinates>
+    <panel_attributes>Page admin :
+Reception des soumissions de nouveaux projet
+Validation des nouveaux fichiers
+Validation des update 
+Suppression de l'ensemble</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>190</x>
+      <y>460</y>
+      <w>270</w>
+      <h>590</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>250.0;570.0;10.0;570.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>400</x>
+      <y>390</y>
+      <w>680</w>
+      <h>410</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;660.0;10.0;660.0;390.0;400.0;390.0</additional_attributes>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>800</x>
+      <y>650</y>
+      <w>190</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>Exit = 
+- Retour page liste ensembles </panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>400</x>
+      <y>410</y>
+      <w>680</w>
+      <h>510</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;660.0;10.0;660.0;490.0;410.0;490.0</additional_attributes>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>810</x>
+      <y>880</y>
+      <w>240</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>Exit = 
+- Soumission des updates à l'admin
+- Retour page liste ensembles </panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>220</x>
+      <y>330</y>
+      <w>430</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>410.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>630</x>
+      <y>320</y>
+      <w>430</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>Inscription 
+Formulaire de création de compte
+Attente d'ajout dans un ensemble via son administrateur</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>40</x>
+      <y>110</y>
+      <w>330</w>
+      <h>100</h>
+    </coordinates>
+    <panel_attributes>Admin :
+- Définit qui a quel roles
+- Peut supprimer son ensemble
+- Choisit les morceaux et delegue le partage 
+aux moderateurs 
+bg=blue</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>440</x>
+      <y>110</y>
+      <w>330</w>
+      <h>130</h>
+    </coordinates>
+    <panel_attributes>Modérateur :
+- Ne peut pas définir qui a quel rôle 
+- Ne peut pas delete l'ensemble 
+- Invite et peut supprimer des membres 
+- Update et ajoute des fichiers
+- Gere les document pour le morceaux 
+choisit par l'admin
+bg=blue</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>850</x>
+      <y>110</y>
+      <w>330</w>
+      <h>100</h>
+    </coordinates>
+    <panel_attributes>Membres :
+- Ne peut qu'ouvrir et consulter les fichiers 
+de l'ensemble
+bg=blue</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>370</x>
+      <y>0</y>
+      <w>510</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>Map pas encore finit et avec définition des différents rôles
+bg=red</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>
