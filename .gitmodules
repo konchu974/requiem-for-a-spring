@@ -2,7 +2,10 @@
 	path = requiem-for-a-spring-front
 	url = https://github.com/Le-Totem/requiem-for-a-spring-front.git
 	branch = main
+	update = merge # comportement par défaut de la commande git submodule update --remote
 [submodule "requiem-for-a-spring-api"]
 	path = requiem-for-a-spring-api
 	url = https://github.com/Le-Totem/requiem-for-a-spring-api.git
 	branch = main
+	update = merge # comportement par défaut de la commande git submodule update --remote
+
