@@ -1,6 +1,6 @@
 import PartitionClefSolFingerPrint from "../components/PartitionClefSolFingerPrint";
 
-import "../styles/Homepage.css";
+import "../styles/homepage.css";
 
 export default function HomePage() {
     return (
