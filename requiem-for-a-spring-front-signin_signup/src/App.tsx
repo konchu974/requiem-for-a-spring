@@ -6,9 +6,9 @@ import HomePage from "./pages/homepage";
 import Ensembleliste from "./pages/ensembleliste";
 import Composants from "./pages/composants";
 
-import './styles/app.css';
+import './styles/styleApp.css';
 import './styles/layout.css';
-import './styles/partition.css';
+import './styles/stylePartition.css';
 import './styles/note.css';
 import MusicPiecePage from "./pages/MusicPiecePage/MusicPiecePage";
 import MainMusicPiece from "./pages/MusicPiecePage/MainMusicPiece";

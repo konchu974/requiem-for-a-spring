@@ -1,7 +1,7 @@
 import React, { useRef, useEffect, useState } from "react";
 import { Note } from "./Note";
 
-import "../styles/App.css";
+import "../styles/styleApp.css";
 
 // ---- Types des notes ----
 export interface NoteData {
